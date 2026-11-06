@@ -1,0 +1,126 @@
+{
+  "id": "ensaio",
+  "titulo": "O Lobo de",
+  "tituloDestaque": "Prata",
+  "subtitulo": "Ensaio geral. Oito herdeiros, um avaliador e uma estátua que desapareceu.",
+  "processo": "Ensaio geral · Casa Mi & Di",
+  "inicio": "2026-10-29T17:40:00+00:00",
+  "prologo": {
+    "titulo": "O último jantar com o lobo",
+    "texto": [
+      "O Lobo de Prata, uma estatueta de prata maciça, está na família há sessenta anos. Daqui a uma semana vai a leilão, e esta noite a Mi e o Di juntaram a família e os amigos para um último jantar com ele em casa.",
+      "Às 20h30 chegou o Dr. Henrique Sá-Lobo, o avaliador que vinha examinar o lobo e fixar o preço. Quase toda a gente nesta sala já se tinha cruzado com ele, por bons ou maus motivos. Às 20h50 o Diogo deixou-o sozinho no closet, com o cofre aberto.",
+      "Às 21h15, quando a Milene o foi chamar para jantar, encontrou-o morto no chão do closet. O cofre estava vazio: o Lobo de Prata tinha desaparecido.",
+      "Ninguém entrou nem saiu de casa. O assassino está sentado a esta mesa. Lê a tua ficha: diz-te onde estavas e o que viste entre as 20h30 e as 21h15."
+    ],
+    "factos": [
+      {
+        "rotulo": "A vítima",
+        "valor": "Dr. Henrique Sá-Lobo, 61 anos, avaliador de antiguidades"
+      },
+      {
+        "rotulo": "Encontrado",
+        "valor": "Às 21h15, no closet, pela Milene"
+      },
+      {
+        "rotulo": "Desaparecido",
+        "valor": "O Lobo de Prata, que estava no cofre"
+      },
+      {
+        "rotulo": "Suspeitos",
+        "valor": "Os oito que estavam em casa"
+      }
+    ]
+  },
+  "rondas": [
+    {
+      "n": 1,
+      "prato": "Entrada"
+    },
+    {
+      "n": 2,
+      "prato": "Prato principal"
+    },
+    {
+      "n": 3,
+      "prato": "Sobremesa"
+    }
+  ],
+  "jogadores": [
+    {
+      "id": "diogo",
+      "nome": "Diogo Guedes",
+      "papel": "O anfitrião · ilusionista de salão",
+      "frase": "Faz desaparecer qualquer coisa."
+    },
+    {
+      "id": "milene",
+      "nome": "Milene",
+      "papel": "A anfitriã · guardiã da biblioteca",
+      "frase": "Já leu todos os livros desta casa. Duas vezes."
+    },
+    {
+      "id": "tomas",
+      "nome": "Tomás Guedes",
+      "papel": "O irmão mais novo · engenheiro em formação",
+      "frase": "Montou sozinho as câmaras da casa."
+    },
+    {
+      "id": "sofia",
+      "nome": "Sofia",
+      "papel": "A afilhada · futura realizadora",
+      "frase": "Está sempre a filmar."
+    },
+    {
+      "id": "alex",
+      "nome": "Alex",
+      "papel": "O padrinho · colecionador de lobos",
+      "frase": "Há anos que quer o Lobo de Prata."
+    },
+    {
+      "id": "claudia",
+      "nome": "Cláudia",
+      "papel": "A convidada · consultora de arte",
+      "frase": "Ninguém sabe bem o que faz."
+    },
+    {
+      "id": "pedro",
+      "nome": "Pedro Reis",
+      "papel": "O fisioterapeuta da família",
+      "frase": "Nunca recusou um segundo prato."
+    },
+    {
+      "id": "pinheiro",
+      "nome": "Diogo Pinheiro",
+      "papel": "O empresário · acabado de chegar do Japão",
+      "frase": "Faz-se de calmo. Tem cinturão de taekwondo."
+    }
+  ],
+  "regras": [
+    "Lê a tua ficha em silêncio e não a mostres a ninguém.",
+    "Podes mentir sobre ti. Nunca podes mentir sobre o que viste.",
+    "No fim, cada um vota no telemóvel em quem acha que é o assassino e pode tentar adivinhar os segredos dos outros.",
+    "Acertar no assassino vale 3 pontos e cada segredo adivinhado vale 1. Ganha quem tiver mais."
+  ],
+  "horaCrime": "21h00",
+  "linhaTempo": {
+    "inicio": "20h30",
+    "fim": "21h15",
+    "momentos": [
+      {
+        "hora": "20h30",
+        "texto": "Chega o avaliador."
+      },
+      {
+        "hora": "20h50",
+        "texto": "O Diogo deixa o avaliador sozinho no closet, com o cofre aberto."
+      },
+      {
+        "hora": "21h15",
+        "texto": "A Milene encontra o corpo no closet.",
+        "crime": true
+      }
+    ]
+  },
+  "chaveGuia": "MORDOMO"
+}

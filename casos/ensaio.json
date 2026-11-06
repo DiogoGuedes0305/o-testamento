@@ -1,0 +1,664 @@
+{
+  "publico": {
+    "id": "ensaio",
+    "titulo": "O Lobo de",
+    "tituloDestaque": "Prata",
+    "subtitulo": "Ensaio geral. Oito herdeiros, um avaliador e uma estátua que desapareceu.",
+    "processo": "Ensaio geral · Casa Mi & Di",
+    "inicio": "2026-10-29T17:40:00+00:00",
+    "prologo": {
+      "titulo": "O último jantar com o lobo",
+      "texto": [
+        "O Lobo de Prata, uma estatueta de prata maciça, está na família há sessenta anos. Daqui a uma semana vai a leilão, e esta noite a Mi e o Di juntaram a família e os amigos para um último jantar com ele em casa.",
+        "Às 20h30 chegou o Dr. Henrique Sá-Lobo, o avaliador que vinha examinar o lobo e fixar o preço. Quase toda a gente nesta sala já se tinha cruzado com ele, por bons ou maus motivos. Às 20h50 o Diogo deixou-o sozinho no closet, com o cofre aberto.",
+        "Às 21h15, quando a Milene o foi chamar para jantar, encontrou-o morto no chão do closet. O cofre estava vazio: o Lobo de Prata tinha desaparecido.",
+        "Ninguém entrou nem saiu de casa. O assassino está sentado a esta mesa. Lê a tua ficha: diz-te onde estavas e o que viste entre as 20h30 e as 21h15."
+      ],
+      "factos": [
+        {
+          "rotulo": "A vítima",
+          "valor": "Dr. Henrique Sá-Lobo, 61 anos, avaliador de antiguidades"
+        },
+        {
+          "rotulo": "Encontrado",
+          "valor": "Às 21h15, no closet, pela Milene"
+        },
+        {
+          "rotulo": "Desaparecido",
+          "valor": "O Lobo de Prata, que estava no cofre"
+        },
+        {
+          "rotulo": "Suspeitos",
+          "valor": "Os oito que estavam em casa"
+        }
+      ]
+    },
+    "rondas": [
+      {
+        "n": 1,
+        "prato": "Entrada"
+      },
+      {
+        "n": 2,
+        "prato": "Prato principal"
+      },
+      {
+        "n": 3,
+        "prato": "Sobremesa"
+      }
+    ],
+    "jogadores": [
+      {
+        "id": "diogo",
+        "nome": "Diogo Guedes",
+        "papel": "O anfitrião · ilusionista de salão",
+        "frase": "Faz desaparecer qualquer coisa."
+      },
+      {
+        "id": "milene",
+        "nome": "Milene",
+        "papel": "A anfitriã · guardiã da biblioteca",
+        "frase": "Já leu todos os livros desta casa. Duas vezes."
+      },
+      {
+        "id": "tomas",
+        "nome": "Tomás Guedes",
+        "papel": "O irmão mais novo · engenheiro em formação",
+        "frase": "Montou sozinho as câmaras da casa."
+      },
+      {
+        "id": "sofia",
+        "nome": "Sofia",
+        "papel": "A afilhada · futura realizadora",
+        "frase": "Está sempre a filmar."
+      },
+      {
+        "id": "alex",
+        "nome": "Alex",
+        "papel": "O padrinho · colecionador de lobos",
+        "frase": "Há anos que quer o Lobo de Prata."
+      },
+      {
+        "id": "claudia",
+        "nome": "Cláudia",
+        "papel": "A convidada · consultora de arte",
+        "frase": "Ninguém sabe bem o que faz."
+      },
+      {
+        "id": "pedro",
+        "nome": "Pedro Reis",
+        "papel": "O fisioterapeuta da família",
+        "frase": "Nunca recusou um segundo prato."
+      },
+      {
+        "id": "pinheiro",
+        "nome": "Diogo Pinheiro",
+        "papel": "O empresário · acabado de chegar do Japão",
+        "frase": "Faz-se de calmo. Tem cinturão de taekwondo."
+      }
+    ],
+    "regras": [
+      "Lê a tua ficha em silêncio e não a mostres a ninguém.",
+      "Podes mentir sobre ti. Nunca podes mentir sobre o que viste.",
+      "No fim, cada um vota no telemóvel em quem acha que é o assassino e pode tentar adivinhar os segredos dos outros.",
+      "Acertar no assassino vale 3 pontos e cada segredo adivinhado vale 1. Ganha quem tiver mais."
+    ],
+    "horaCrime": "21h00",
+    "linhaTempo": {
+      "inicio": "20h30",
+      "fim": "21h15",
+      "momentos": [
+        {
+          "hora": "20h30",
+          "texto": "Chega o avaliador."
+        },
+        {
+          "hora": "20h50",
+          "texto": "O Diogo deixa o avaliador sozinho no closet, com o cofre aberto."
+        },
+        {
+          "hora": "21h15",
+          "texto": "A Milene encontra o corpo no closet.",
+          "crime": true
+        }
+      ]
+    }
+  },
+  "segredos": [
+    {
+      "codigo": "TINTEIRO",
+      "tipo": "ficha",
+      "jogador": "diogo",
+      "quemEs": "A casa é tua e da Milene, e esta noite recebem o Dr. Henrique Sá-Lobo, o avaliador que vai dizer quanto vale o Lobo de Prata da família antes do leilão.",
+      "regra": "És inocente. Podes mentir sobre ti: o que sentes, o teu passado, os teus segredos. Não podes mentir sobre o que viste os outros fazer.",
+      "ligacao": "Foste tu que contrataste o avaliador. No mês passado jogaram póquer no clube e ele ganhou-te uma quantia que preferes não dizer em voz alta.",
+      "horario": [
+        {
+          "hora": "20h30–20h50",
+          "texto": "Na sala, a receber os convidados."
+        },
+        {
+          "hora": "20h50–20h55",
+          "texto": "No closet, com o avaliador. Abriste-lhe o cofre e deixaste-o lá sozinho com o lobo."
+        },
+        {
+          "hora": "20h55–21h05",
+          "texto": "Na sala, a fazer um truque de cartas para a Sofia, a Cláudia e o Pedro. A Sofia filmou."
+        },
+        {
+          "hora": "21h05–21h15",
+          "texto": "Na cozinha, a ajudar o Pinheiro com o forno."
+        }
+      ],
+      "viste": [
+        "Quando deixaste o avaliador no closet, ele estava a tirar uma balança pequena da pasta.",
+        "O Pedro afastou-se logo no início do truque e voltou pouco depois.",
+        "Durante o truque estavas virado para a Sofia e para a Cláudia. Não viste quem passou atrás de ti."
+      ],
+      "segredo": "Perdeste 3 000 € com o avaliador ao póquer e ainda não lhe pagaste. Um mágico a perder às cartas: se isto se sabe, a tua reputação acaba.",
+      "objetivo": "Descobrir quem matou o avaliador sem que ninguém fale da dívida de póquer."
+    },
+    {
+      "codigo": "CAMELIA",
+      "tipo": "ficha",
+      "jogador": "milene",
+      "quemEs": "A casa é tua e do Diogo. Cuidas da biblioteca da família como se fosse tua, e de certa forma é.",
+      "regra": "És inocente. Podes mentir sobre ti: o que sentes, o teu passado, os teus segredos. Não podes mentir sobre o que viste os outros fazer.",
+      "ligacao": "Nos papéis que o avaliador mandou na semana passada há uma proposta: vender a biblioteca inteira no mesmo leilão do lobo. Ninguém te perguntou nada.",
+      "horario": [
+        {
+          "hora": "20h30–20h45",
+          "texto": "Na sala, com os convidados."
+        },
+        {
+          "hora": "20h45–21h10",
+          "texto": "No escritório, no piso de cima, sozinha, à procura do certificado do Lobo de Prata."
+        },
+        {
+          "hora": "21h10–21h15",
+          "texto": "Na sala."
+        },
+        {
+          "hora": "21h15",
+          "texto": "Foste chamar o avaliador para jantar e encontraste-o morto no closet."
+        }
+      ],
+      "viste": [
+        "Às 20h58, no escritório, o teu telemóvel mostrou um aviso da app das câmaras: «Câmara do corredor desligada.» Às 21h04 chegou outro: «Câmara do corredor ligada.»",
+        "Encontraste o certificado. Diz que o Lobo de Prata pesa 9 kg.",
+        "Quando entraste no closet, o cofre estava aberto e vazio."
+      ],
+      "segredo": "Escondeste no escritório três livros raros da biblioteca para não irem a leilão. Se o avaliador desse pela falta, ias ter de explicar.",
+      "objetivo": "Descobrir quem matou o avaliador sem que ninguém vá mexer nas estantes do escritório."
+    },
+    {
+      "codigo": "ESTRIBO",
+      "tipo": "ficha",
+      "jogador": "tomas",
+      "quemEs": "És o irmão mais novo do Diogo. Montaste sozinho o sistema de câmaras da casa e és o único que percebe como funciona.",
+      "regra": "És o assassino. Podes mentir sobre tudo, incluindo onde estavas. A tua versão: estiveste no WC principal das 20h55 às 21h10, maldisposto.",
+      "ligacao": "O avaliador veio pesar e examinar o Lobo de Prata. É a única pessoa que podia descobrir o que fizeste.",
+      "horario": [
+        {
+          "hora": "20h30–20h58",
+          "texto": "Na sala. No início do truque do Diogo estavas atrás da Cláudia."
+        },
+        {
+          "hora": "20h58",
+          "texto": "Desligaste a câmara do corredor pela app e foste ao closet."
+        },
+        {
+          "hora": "20h59–21h01",
+          "texto": "No closet. O avaliador tinha o lobo na balança. Mataste-o com o castiçal de latão."
+        },
+        {
+          "hora": "21h01–21h03",
+          "texto": "Levaste o lobo embrulhado no teu casaco do clube de ténis até à lavandaria, por trás do truque do Diogo. Meteste-o na máquina de lavar."
+        },
+        {
+          "hora": "21h04–21h15",
+          "texto": "Voltaste pelo corredor, ligaste a câmara e ficaste no WC principal a lavar as mãos."
+        }
+      ],
+      "viste": [
+        "Quando atravessaste a sala, o Pinheiro estava de costas na cozinha e os outros estavam a olhar para o truque.",
+        "A Sofia estava a filmar o truque. Não sabes se apareces no vídeo.",
+        "Trazes no pulso a pulseira do torneio de e-sports. Não te lembraste de a tirar."
+      ],
+      "segredo": "Há três meses penhoraste o Lobo de Prata verdadeiro para pagar um computador novo e as inscrições dos torneios. No cofre puseste uma réplica de resina pintada. O avaliador ia pesá-la.",
+      "objetivo": "Que ninguém te acuse. O Diogo, a Milene e o Alex também têm a app das câmaras. Na votação final, vota em quem queres incriminar: se essa pessoa for a mais votada, ganhas pontos extra."
+    },
+    {
+      "codigo": "MONOCULO",
+      "tipo": "ficha",
+      "jogador": "sofia",
+      "quemEs": "És a afilhada da família e queres ser realizadora. Filmas tudo, esta noite incluída.",
+      "regra": "És inocente. Podes mentir sobre ti: o que sentes, o teu passado, os teus segredos. Não podes mentir sobre o que viste os outros fazer.",
+      "ligacao": "Ao chegar, o avaliador reconheceu-te: «És a menina dos vídeos da casa.» Disse que tinha visto os teus vídeos e que ia falar com os anfitriões.",
+      "horario": [
+        {
+          "hora": "20h30–20h55",
+          "texto": "Na sala, a filmar os convidados a chegar."
+        },
+        {
+          "hora": "20h55–21h05",
+          "texto": "Na sala, a filmar o truque de cartas do Diogo, ao lado da Cláudia."
+        },
+        {
+          "hora": "21h05–21h15",
+          "texto": "Na sala, a rever o vídeo do truque no telemóvel."
+        }
+      ],
+      "viste": [
+        "O Pedro saiu logo no início do truque e voltou poucos minutos depois.",
+        "O Diogo nunca saiu da tua frente durante o truque.",
+        "Ao rever o vídeo, reparaste que por volta das 21h01 passa alguém atrás do Diogo em direção à lavandaria, com uma coisa embrulhada ao colo. Não se percebe quem é."
+      ],
+      "segredo": "Tens uma conta de vídeos com milhares de seguidores onde mostras a casa por dentro. Num dos vídeos vê-se o cofre do closet a abrir.",
+      "objetivo": "Descobrir quem matou o avaliador. Só mostras o vídeo do truque quando te convier."
+    },
+    {
+      "codigo": "CHARUTO",
+      "tipo": "ficha",
+      "jogador": "alex",
+      "quemEs": "És padrinho do casamento dos anfitriões e coleciona tudo o que tenha lobos. O Lobo de Prata é a peça que procuras há anos.",
+      "regra": "És inocente. Podes mentir sobre ti: o que sentes, o teu passado, os teus segredos. Não podes mentir sobre o que viste os outros fazer.",
+      "ligacao": "Esta noite o avaliador disse-te que ia pôr o lobo a leilão por um valor que não podes pagar.",
+      "horario": [
+        {
+          "hora": "20h30–20h50",
+          "texto": "Na sala, a conversar com o avaliador sobre o lobo."
+        },
+        {
+          "hora": "20h50–21h05",
+          "texto": "No quarto principal, com a porta fechada, ao telefone por causa do trabalho."
+        },
+        {
+          "hora": "21h05–21h15",
+          "texto": "Na sala."
+        }
+      ],
+      "viste": [
+        "Às 21h00, do quarto principal, ouviste uma pancada seca do lado do closet.",
+        "Logo a seguir, ouviste a porta do closet fechar-se.",
+        "Quando saíste, às 21h05, o corredor estava vazio."
+      ],
+      "segredo": "Ofereceste 2 000 € em notas ao avaliador para baixar a avaliação do lobo. Ele recusou e meteu o envelope no bolso do casaco para to devolver amanhã.",
+      "objetivo": "Descobrir quem matou o avaliador antes que alguém encontre o teu envelope."
+    },
+    {
+      "codigo": "PERGAMINHO",
+      "tipo": "ficha",
+      "jogador": "claudia",
+      "quemEs": "Para toda a gente és consultora de arte e estás aqui como convidada. A verdade é um pouco diferente.",
+      "regra": "És inocente. Podes mentir sobre ti: o que sentes, o teu passado, os teus segredos. Não podes mentir sobre o que viste os outros fazer.",
+      "ligacao": "Às 20h40 o avaliador puxou-te para o lado e disse baixinho: «Aquele lobo não me parece bem. Vou pesá-lo.»",
+      "horario": [
+        {
+          "hora": "20h30–20h55",
+          "texto": "Na sala. Às 20h40 falaste com o avaliador."
+        },
+        {
+          "hora": "20h55–21h05",
+          "texto": "Na sala, a ver o truque do Diogo, ao lado da Sofia."
+        },
+        {
+          "hora": "21h05–21h15",
+          "texto": "Nas escadas, ao telemóvel."
+        }
+      ],
+      "viste": [
+        "No início do truque o Tomás estava atrás de ti. A meio, já não estava.",
+        "Por volta das 21h01 sentiste alguém passar atrás de ti, depressa. Não te viraste, porque o Diogo estava a revelar a carta."
+      ],
+      "segredo": "Trabalhas para a seguradora do Lobo de Prata. Mandaram-te em segredo verificar se a família está a preparar uma fraude ao seguro. O avaliador sabia quem eras.",
+      "objetivo": "Descobrir onde está o Lobo de Prata verdadeiro."
+    },
+    {
+      "codigo": "CRISTAL",
+      "tipo": "ficha",
+      "jogador": "pedro",
+      "quemEs": "És o fisioterapeuta da família e um dos padrinhos de casamento dos anfitriões. Nunca recusaste um segundo prato, e esta noite não vai ser exceção.",
+      "regra": "És inocente. Podes mentir sobre ti: o que sentes, o teu passado, os teus segredos. Não podes mentir sobre o que viste os outros fazer.",
+      "ligacao": "No ano passado trataste as costas do avaliador. A recuperação correu mal e ele ameaçou fazer queixa de ti na Ordem.",
+      "horario": [
+        {
+          "hora": "20h30–20h55",
+          "texto": "Na sala, junto aos petiscos."
+        },
+        {
+          "hora": "20h55–20h57",
+          "texto": "Foste ao quarto de hóspedes buscar o carregador do telemóvel."
+        },
+        {
+          "hora": "20h57–21h15",
+          "texto": "Na sala, de costas para a lavandaria, a acabar os petiscos."
+        }
+      ],
+      "viste": [
+        "Às 20h56, ao passar no corredor, a porta do WC principal estava aberta e não estava lá ninguém.",
+        "A porta do closet estava fechada e ouvia-se o avaliador a assobiar lá dentro.",
+        "Quando voltaste à sala, o Diogo ainda estava no início do truque."
+      ],
+      "segredo": "A queixa na Ordem já entrou. Ainda não contaste a ninguém e esta noite o avaliador ia falar disso ao jantar.",
+      "objetivo": "Descobrir quem matou o avaliador sem que ninguém fale da queixa. E repetir a sobremesa."
+    },
+    {
+      "codigo": "GALGO",
+      "tipo": "ficha",
+      "jogador": "pinheiro",
+      "quemEs": "Voltaste há pouco do Japão e acabaste de abrir o teu próprio negócio. Fazes-te de calmo, mas tens cinturão de taekwondo.",
+      "regra": "És inocente. Podes mentir sobre ti: o que sentes, o teu passado, os teus segredos. Não podes mentir sobre o que viste os outros fazer.",
+      "ligacao": "O teu negócio novo vende cartas raras de colecionador. O avaliador comprou-te uma no mês passado e mandou-a avaliar.",
+      "horario": [
+        {
+          "hora": "20h30–20h50",
+          "texto": "Na sala."
+        },
+        {
+          "hora": "20h50–21h15",
+          "texto": "Na cozinha, a tratar do assado, de costas para a sala. O Diogo veio ajudar-te às 21h05."
+        }
+      ],
+      "viste": [
+        "Por volta das 21h01 ouviste a porta da máquina de lavar, na lavandaria, abrir e fechar. Estavas de costas e não viste quem foi.",
+        "Às 21h05 o Diogo chegou à cozinha a guardar o baralho no bolso."
+      ],
+      "segredo": "A carta que vendeste ao avaliador era falsa. Compraste-a assim no Japão sem saber, mas ninguém vai acreditar nisso.",
+      "objetivo": "Descobrir quem matou o avaliador antes que alguém fale da carta."
+    },
+    {
+      "codigo": "LAREIRA",
+      "tipo": "ronda",
+      "n": 1,
+      "titulo": "O Closet",
+      "texto": "A Milene chama todos ao closet. Ninguém toca em nada. Isto é o que se vê.",
+      "provas": [
+        {
+          "titulo": "A vítima",
+          "itens": [
+            "Dr. Henrique Sá-Lobo, 61 anos, avaliador de antiguidades.",
+            "Pancada forte na cabeça. Morreu entre as 20h55 e as 21h10.",
+            "No chão, uma balança de precisão ligada, a marcar zero.",
+            "No bolso do casaco, um envelope com 2 000 € em notas."
+          ]
+        },
+        {
+          "titulo": "A arma",
+          "itens": [
+            "O castiçal de latão do closet, caído atrás da porta.",
+            "Foi limpo à pressa. Não tem impressões digitais."
+          ]
+        },
+        {
+          "titulo": "As câmaras",
+          "itens": [
+            "A câmara do corredor esteve desligada das 20h58 às 21h04.",
+            "Foi desligada e ligada pela app das câmaras, não no aparelho.",
+            "A app só está instalada nos telemóveis de quem montou ou gere o sistema: Diogo, Milene, Tomás e Alex."
+          ]
+        }
+      ],
+      "marcas": [
+        {
+          "sala": "closet",
+          "rotulo": "corpo",
+          "descricao": "O avaliador estava caído no chão do closet, ao lado do cofre aberto."
+        }
+      ],
+      "momentos": [
+        {
+          "hora": "20h55",
+          "texto": "Pelo corpo: morreu entre as 20h55 e as 21h10."
+        },
+        {
+          "hora": "20h58",
+          "texto": "A câmara do corredor é desligada pela app."
+        },
+        {
+          "hora": "21h04",
+          "texto": "A câmara do corredor volta a ligar-se."
+        }
+      ]
+    },
+    {
+      "codigo": "BRASAO",
+      "tipo": "ronda",
+      "n": 2,
+      "titulo": "A Lavandaria",
+      "texto": "Alguém vai à lavandaria buscar guardanapos e repara que a máquina de lavar está fechada, mas parada e sem água.",
+      "provas": [
+        {
+          "titulo": "O lobo",
+          "itens": [
+            "Dentro da máquina está o Lobo de Prata, embrulhado num casaco.",
+            "O lobo pesa 1,2 kg. É de resina pintada: uma réplica.",
+            "Na agenda do avaliador lê-se: «Lobo: 9 kg segundo o certificado. Pesar esta noite.»"
+          ]
+        },
+        {
+          "titulo": "O casaco",
+          "itens": [
+            "É um casaco do clube de ténis, tamanho M, sem nome.",
+            "Todos os que jogam ou já jogaram no clube têm um igual: o Diogo, o Tomás, o Pedro e o Pinheiro."
+          ]
+        }
+      ],
+      "marcas": [
+        {
+          "sala": "lavandaria",
+          "rotulo": "o lobo",
+          "descricao": "O Lobo de Prata estava escondido na máquina de lavar, embrulhado num casaco."
+        }
+      ]
+    },
+    {
+      "codigo": "SINETE",
+      "tipo": "ronda",
+      "n": 3,
+      "titulo": "O Vídeo",
+      "texto": "A Sofia mostra a todos o vídeo do truque de cartas.",
+      "provas": [
+        {
+          "titulo": "O vídeo da Sofia",
+          "itens": [
+            "20h55 a 21h05. O Diogo aparece sempre em primeiro plano, a fazer o truque.",
+            "Às 21h01, atrás do Diogo, alguém atravessa a sala em direção à lavandaria com uma coisa embrulhada ao colo.",
+            "A cara não se vê. Vê-se o pulso: uma pulseira de tecido do torneio de e-sports onde o Tomás, o Alex e o Pinheiro foram juntos."
+          ]
+        },
+        {
+          "titulo": "A casa de penhores",
+          "itens": [
+            "A Cláudia faz uma chamada e confirma: há três meses, uma casa de penhores recebeu um lobo de prata de 9 kg.",
+            "Quem o entregou disse que precisava do dinheiro «para um computador novo»."
+          ]
+        }
+      ],
+      "marcas": [],
+      "momentos": [
+        {
+          "hora": "20h55",
+          "texto": "Começa o vídeo da Sofia (até às 21h05)."
+        },
+        {
+          "hora": "21h01",
+          "texto": "No vídeo, alguém atravessa a sala para a lavandaria com uma coisa embrulhada ao colo."
+        }
+      ]
+    },
+    {
+      "codigo": "VEREDICTO",
+      "tipo": "solucao",
+      "assassino": "tomas",
+      "titulo": "Foi o Tomás",
+      "texto": [
+        "Há três meses o Tomás penhorou o Lobo de Prata verdadeiro e pôs no cofre uma réplica de resina. O avaliador vinha pesá-lo, e com a balança ia descobrir tudo.",
+        "Às 20h58 desligou a câmara do corredor pela app, que só ele, o Diogo, a Milene e o Alex têm. Entrou no closet e matou o avaliador com o castiçal.",
+        "Embrulhou a réplica no casaco do clube de ténis e atravessou a sala por trás do truque do Diogo. O vídeo da Sofia apanhou-lhe a pulseira do torneio.",
+        "Disse que esteve no WC principal, mas o Pedro viu-o vazio às 20h56 e a Cláudia viu-o na sala no início do truque."
+      ],
+      "cronologia": [
+        {
+          "hora": "20h50",
+          "texto": "O Diogo deixa o avaliador no closet com o cofre aberto."
+        },
+        {
+          "hora": "20h55",
+          "texto": "Começa o truque de cartas. A Sofia filma."
+        },
+        {
+          "hora": "20h56",
+          "texto": "O Pedro passa no corredor: o WC principal está vazio."
+        },
+        {
+          "hora": "20h58",
+          "texto": "A câmara do corredor é desligada pela app. O Tomás vai ao closet."
+        },
+        {
+          "hora": "21h00",
+          "texto": "O Alex ouve a pancada."
+        },
+        {
+          "hora": "21h01",
+          "texto": "O Tomás atravessa a sala com o lobo. O Pinheiro ouve a máquina de lavar."
+        },
+        {
+          "hora": "21h04",
+          "texto": "A câmara volta a ligar-se."
+        },
+        {
+          "hora": "21h15",
+          "texto": "A Milene encontra o corpo."
+        }
+      ],
+      "horaCrime": "21h00",
+      "posicoes": {
+        "diogo": "sala",
+        "milene": "escritorio",
+        "tomas": "closet",
+        "sofia": "sala",
+        "alex": "principal",
+        "claudia": "sala",
+        "pedro": "sala",
+        "pinheiro": "sala"
+      },
+      "percurso": [
+        {
+          "hora": "20h50",
+          "texto": "O Diogo deixa o avaliador sozinho no closet, com o cofre aberto e o lobo na balança.",
+          "pos": {
+            "tomas": "sala",
+            "vitima": "closet"
+          }
+        },
+        {
+          "hora": "20h55",
+          "texto": "Começa o truque de cartas do Diogo na sala. Todos olham para as cartas.",
+          "pos": {
+            "tomas": "sala",
+            "vitima": "closet"
+          }
+        },
+        {
+          "hora": "20h58",
+          "texto": "O Tomás desliga a câmara do corredor pela app e vai ao closet.",
+          "pos": {
+            "tomas": "corredor",
+            "vitima": "closet"
+          }
+        },
+        {
+          "hora": "21h00",
+          "texto": "Mata o avaliador com o castiçal de latão. O Alex ouve a pancada.",
+          "pos": {
+            "tomas": "closet",
+            "vitima": "closet"
+          },
+          "crime": true
+        },
+        {
+          "hora": "21h01",
+          "texto": "Embrulha o lobo no casaco do clube de ténis e atravessa a sala por trás do truque.",
+          "pos": {
+            "tomas": "sala",
+            "vitima": "closet"
+          }
+        },
+        {
+          "hora": "21h03",
+          "texto": "Esconde o lobo na máquina de lavar.",
+          "pos": {
+            "tomas": "lavandaria",
+            "vitima": "closet"
+          }
+        },
+        {
+          "hora": "21h04",
+          "texto": "Volta pelo corredor, liga a câmara e lava as mãos no WC principal.",
+          "pos": {
+            "tomas": "wcprincipal",
+            "vitima": "closet"
+          }
+        },
+        {
+          "hora": "21h15",
+          "texto": "A Milene vai chamar o avaliador para jantar e encontra-o morto.",
+          "pos": {
+            "tomas": "wcprincipal",
+            "vitima": "closet",
+            "milene": "closet"
+          }
+        }
+      ]
+    },
+    {
+      "codigo": "MORDOMO",
+      "tipo": "guia",
+      "titulo": "Guia do anfitrião",
+      "intro": "Este guia não revela o assassino. Diz-te quando abrir cada ronda e o que fazer em cada momento.",
+      "passos": [
+        {
+          "quando": "Antes",
+          "titulo": "Os envelopes",
+          "texto": "Dá a cada jogador o envelope com o seu código. Pede para abrirem o site e escreverem o código no ecrã inicial."
+        },
+        {
+          "quando": "Chegada",
+          "titulo": "Retratos",
+          "texto": "Tira um retrato a cada um à chegada."
+        },
+        {
+          "quando": "Antes das fichas",
+          "titulo": "A história",
+          "texto": "Com todos sentados, lê em voz alta a história de abertura do ecrã inicial e as regras. Só depois cada um abre a sua ficha."
+        },
+        {
+          "quando": "Fichas",
+          "titulo": "Ler em silêncio",
+          "texto": "Dá 10 minutos para cada um ler a ficha em silêncio."
+        },
+        {
+          "quando": "Entrada",
+          "titulo": "Ronda 1",
+          "texto": "Quando a entrada estiver na mesa, carrega em \"Revelar a 1.ª ronda\", no topo deste guia. As provas aparecem sozinhas em todos os telemóveis. Deixa 20 a 30 minutos de conversa."
+        },
+        {
+          "quando": "Prato principal",
+          "titulo": "Ronda 2",
+          "texto": "Com o prato principal servido, carrega em \"Revelar a 2.ª ronda\"."
+        },
+        {
+          "quando": "Sobremesa",
+          "titulo": "Ronda 3",
+          "texto": "Com a sobremesa, carrega em \"Revelar a 3.ª ronda\". A votação final abre ao mesmo tempo, no ecrã \"O teu veredicto\"."
+        },
+        {
+          "quando": "Fim",
+          "titulo": "O veredicto",
+          "texto": "Cada um defende a sua teoria em voz alta e vota no ecrã \"O teu veredicto\". Quando todos votarem e marcarem os palpites, a revelação abre sozinha. Se alguém ficar para trás, carrega em \"Revelar a solução\"."
+        }
+      ]
+    }
+  ]
+}
