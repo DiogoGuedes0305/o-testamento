@@ -8,6 +8,9 @@ e uma estatueta de prata que desapareceu do cofre. Um de vocês é o assassino �
 
 ▶ **Jogar agora:** https://diogoguedes0305.github.io/o-testamento/
 
+<p align="center"><img src="docs/demo.gif" alt="Demo animada: lobby, ficha cifrada, provas, caderno do detetive e veredicto" width="720"></p>
+<p align="center"><sub>🎬 Demo animada · do convite ao veredicto</sub></p>
+
 ## Como se joga
 
 - **6 a 8 jogadores**, cada um com o seu telemóvel. Um deles é o **anfitrião** (também joga).
