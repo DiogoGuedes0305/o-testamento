@@ -1,48 +1,51 @@
-# O Testamento — murder mystery para o telemóvel
+🇬🇧 **English** · 🇵🇹 [Português](README.pt.md)
 
-Um jogo de **murder mystery** para jogar ao jantar, com amigos, cada um no seu telemóvel.
-Uma web app (PWA) feita de raiz: sem instalar nada, sem contas, funciona em Android e iPhone.
+# O Testamento — a murder mystery for your phone
 
-Este repositório traz o caso de exemplo **"O Lobo de Prata"**: oito herdeiros, um avaliador morto no closet
-e uma estatueta de prata que desapareceu do cofre. Um de vocês é o assassino — e nem o anfitrião sabe quem.
+A **murder mystery** game to play over dinner with friends, each on their own phone.
+A web app (PWA) built from scratch: nothing to install, no accounts, works on Android and iPhone.
 
-▶ **Jogar agora:** https://diogoguedes0305.github.io/o-testamento/
+This repository includes the sample case **"O Lobo de Prata"** (The Silver Wolf): eight heirs, an appraiser found dead
+in the closet and a silver statue missing from the safe. One of you is the killer — and not even the host knows who.
 
-<p align="center"><img src="docs/demo.gif" alt="Demo animada: lobby, ficha cifrada, provas, caderno do detetive e veredicto" width="720"></p>
-<p align="center"><sub>🎬 Demo animada · do convite ao veredicto</sub></p>
+▶ **Play now:** https://diogoguedes0305.github.io/o-testamento/
 
-## Como se joga
+<p align="center"><img src="docs/demo.gif" alt="Animated demo: lobby, encrypted character sheet, evidence, detective notebook and verdict" width="720"></p>
+<p align="center"><sub>🎬 Animated demo · from the invitation to the verdict</sub></p>
 
-- **6 a 8 jogadores**, cada um com o seu telemóvel. Um deles é o **anfitrião** (também joga).
-- Cada jogador recebe um **código secreto** que abre a sua **ficha**: a personagem, onde estava,
-  o que viu, a ligação à vítima e um segredo.
-- Pode-se mentir sobre si próprio, **nunca** sobre o que se viu. Não se mostra a ficha a ninguém.
-- O jantar tem **3 rondas** (entrada, prato principal, sobremesa). Em cada uma, o anfitrião revela
-  novas provas, que aparecem em todos os telemóveis ao mesmo tempo.
-- No fim, cada um vota em quem acha que é o assassino e tenta adivinhar os segredos dos outros.
-- Revela-se o assassino, a **reconstituição** animada na planta da casa, a solução e o **pódio**.
+> The game itself is in Portuguese.
 
-### Pontos
-- +3 a cada inocente que acerta no assassino.
-- +1 por cada segredo adivinhado (é o dono do segredo que confirma).
-- O assassino ganha +1 por cada pessoa que não votou nele e +2 se quem ele incriminou for o mais votado.
+## How to play
 
-## Experimentar com amigos
+- **6 to 8 players**, each with their own phone. One of them is the **host** (who also plays).
+- Each player gets a **secret code** that unlocks their **character sheet**: who they are, where they were,
+  what they saw, their link to the victim and a secret.
+- You may lie about yourself, **never** about what you saw. Never show your sheet to anyone.
+- Dinner has **3 rounds** (starter, main course, dessert). In each one the host reveals new evidence,
+  which appears on every phone at the same time.
+- At the end everyone votes for the killer and tries to guess the others' secrets.
+- Then come the killer reveal, an animated **reconstruction** on the floor plan, the solution and the **podium**.
 
-1. O anfitrião abre o link. A app cria uma **sala** só vossa e o endereço passa a ter `?sala=XXXXX`.
-2. O anfitrião escreve o código dele (**TINTEIRO**) e carrega em **Salvar** e **Entrar**.
-3. **5 toques rápidos no título** abrem o **guia do anfitrião** (só no telemóvel com a ficha do anfitrião).
-   Em "Códigos dos jogadores", o botão **Copiar** prepara uma mensagem com o código e o link da sala
-   para mandar a cada amigo.
-4. O anfitrião lê a história em voz alta e usa o botão do guia para avançar:
-   1.ª ronda → 2.ª → 3.ª → abrir a votação → revelar o assassino → solução → pódio.
+### Points
+- +3 for each innocent who names the killer.
+- +1 for each secret guessed (the secret's owner confirms it).
+- The killer gets +1 for each person who didn't vote for them, and +2 if the person they framed gets the most votes.
 
-> Para testar sozinho, abre a mesma sala em vários separadores ou janelas anónimas, cada um com um código.
-> Cada código só pode estar num telemóvel de cada vez.
+## Try it with friends
 
-| Jogador | Código |
+1. The host opens the link. The app creates a **room** just for you and the address gets `?sala=XXXXX`.
+2. The host types their code (**TINTEIRO**) and taps **Salvar** and **Entrar**.
+3. **Tap the title 5 times quickly** to open the **host guide** (only on the host's phone).
+   Under "Códigos dos jogadores", **Copiar** prepares a message with the code and the room link for each friend.
+4. The host reads the story out loud and uses the guide button to move on:
+   round 1 → 2 → 3 → open the vote → reveal the killer → solution → podium.
+
+> To test alone, open the same room in several tabs or private windows, each with a different code.
+> Each code can only be on one phone at a time.
+
+| Player | Code |
 |---|---|
-| Rui (anfitrião) | TINTEIRO |
+| Rui (host) | TINTEIRO |
 | Inês | CAMELIA |
 | Tiago | ESTRIBO |
 | Beatriz | MONOCULO |
@@ -51,46 +54,46 @@ e uma estatueta de prata que desapareceu do cofre. Um de vocês é o assassino �
 | Nuno | CRISTAL |
 | Filipe | GALGO |
 
-## O que tem a app
+## What's in the app
 
-- **Ficha** pessoal, atrás de uma cortina ("Só para os teus olhos").
-- **Provas** de cada ronda, com cruzes na **planta da casa** onde cada uma foi encontrada.
-- **Caderno do detetive**: a planta, um quadro com onde estava cada pessoa à hora do crime, notas,
-  e uma **linha do tempo** de 5 em 5 minutos. Fica só no teu telemóvel.
-- **Família**: os retratos de todos, em molduras ovais douradas.
-- **Votação** em três fases (votar, confirmar palpites, revelar), sincronizada entre telemóveis.
-- **Reconstituição**: o percurso do assassino animado na planta, minuto a minuto.
-- Funciona sem rede depois da primeira visita (service worker) e pode ser adicionada ao ecrã principal.
+- Personal **character sheet**, behind a curtain ("Só para os teus olhos" — for your eyes only).
+- **Evidence** for each round, with marks on the **floor plan** where each item was found.
+- **Detective notebook**: the floor plan, a board with where everyone was at the time of the crime, notes,
+  and a **timeline** in 5-minute steps. It stays on your phone only.
+- **Family**: portraits of everyone in gold oval frames.
+- **Voting** in three phases (vote, confirm guesses, reveal), synced between phones.
+- **Reconstruction**: the killer's path animated on the floor plan, minute by minute.
+- Works offline after the first visit (service worker) and can be added to the home screen.
 
-## Como funciona por dentro
+## How it works
 
-- `site/` — a app: HTML, CSS e JavaScript simples, sem build nem dependências.
-- Os segredos de cada caso estão **cifrados** (AES-GCM, chave PBKDF2 derivada de cada código):
-  `site/dados/<caso>/caso.json`. Cada código só abre a sua parte. O que é público está em `publico.json`.
-- A sincronização entre telemóveis (rondas, presenças, votos) usa uma Firebase Realtime Database por REST.
-  Esta demonstração usa a pasta `testamento-demo/<sala>`.
+- `site/` — the app: plain HTML, CSS and JavaScript, no build step and no dependencies.
+- Each case's secrets are **encrypted** (AES-GCM, with a PBKDF2 key derived from each code):
+  `site/dados/<case>/caso.json`. Each code only unlocks its own part. Public data is in `publico.json`.
+- Syncing between phones (rounds, presence, votes) uses a Firebase Realtime Database over REST.
+  This demo uses the `testamento-demo/<room>` folder.
 
-### Correr no computador
+### Run it locally
 
 ```bash
-node ferramentas/servir.mjs        # abre http://localhost:8080
+node ferramentas/servir.mjs        # opens http://localhost:8080
 ```
-A cifra do browser só funciona em `localhost` ou `https`.
+Browser encryption only works on `localhost` or `https`.
 
-### Escrever o teu próprio caso
+### Write your own case
 
-> ⚠️ **Spoiler:** `casos/ensaio.json` é o caso de exemplo em claro, com a solução. Não abras se queres jogar.
+> ⚠️ **Spoiler:** `casos/ensaio.json` is the sample case in plain text, with the solution. Don't open it if you want to play.
 
-1. Copia `casos/ensaio.json` e escreve a tua história: jogadores, fichas, rondas (com `marcas` na planta),
-   solução (com o `percurso` do assassino) e guia.
-2. `node ferramentas/cifrar.mjs casos/o-meu-caso.json --padrao` gera `site/dados/<id>/` e os envelopes para imprimir
-   em `privado/` (fora do site).
-3. `node ferramentas/testar-dados.mjs site/dados/<id> casos/o-meu-caso.json` confirma que tudo abre com os códigos certos.
-4. Para a tua própria noite, troca o endereço da base de dados em `site/app.js` (constante `BD`) pelo da tua
+1. Copy `casos/ensaio.json` and write your story: players, sheets, rounds (with `marcas` on the floor plan),
+   solution (with the killer's `percurso`) and guide.
+2. `node ferramentas/cifrar.mjs casos/my-case.json --padrao` generates `site/dados/<id>/` and printable envelopes
+   in `privado/` (outside the site).
+3. `node ferramentas/testar-dados.mjs site/dados/<id> casos/my-case.json` checks that everything opens with the right codes.
+4. For your own night, replace the database address in `site/app.js` (the `BD` constant) with your own
    Firebase Realtime Database.
 
-A planta da casa é desenhada em SVG em `site/app.js` (`SALAS`); adapta-a à tua casa.
+The floor plan is drawn in SVG in `site/app.js` (`SALAS`); adapt it to your home.
 
 ---
-Feito com a ajuda do Claude, para uma game night em casa.
-Os nomes e as personagens deste caso de exemplo são fictícios.
+Made with the help of Claude, for a game night at home.
+The names and characters in this sample case are fictional.
