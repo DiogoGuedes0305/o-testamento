@@ -1,0 +1,126 @@
+{
+  "id": "ensaio",
+  "titulo": "O Lobo de",
+  "tituloDestaque": "Prata",
+  "subtitulo": "Ensaio geral. Oito herdeiros, um avaliador e uma estátua que desapareceu.",
+  "processo": "Ensaio geral · Casa Rui & Inês",
+  "inicio": "2026-10-29T17:40:00+00:00",
+  "prologo": {
+    "titulo": "O último jantar com o lobo",
+    "texto": [
+      "O Lobo de Prata, uma estatueta de prata maciça, está na família há sessenta anos. Daqui a uma semana vai a leilão, e esta noite a Inês e o Rui juntaram a família e os amigos para um último jantar com ele em casa.",
+      "Às 20h30 chegou o Dr. Henrique Sá-Lobo, o avaliador que vinha examinar o lobo e fixar o preço. Quase toda a gente nesta sala já se tinha cruzado com ele, por bons ou maus motivos. Às 20h50 o Rui deixou-o sozinho no closet, com o cofre aberto.",
+      "Às 21h15, quando a Inês o foi chamar para jantar, encontrou-o morto no chão do closet. O cofre estava vazio: o Lobo de Prata tinha desaparecido.",
+      "Ninguém entrou nem saiu de casa. O assassino está sentado a esta mesa. Lê a tua ficha: diz-te onde estavas e o que viste entre as 20h30 e as 21h15."
+    ],
+    "factos": [
+      {
+        "rotulo": "A vítima",
+        "valor": "Dr. Henrique Sá-Lobo, 61 anos, avaliador de antiguidades"
+      },
+      {
+        "rotulo": "Encontrado",
+        "valor": "Às 21h15, no closet, pela Inês"
+      },
+      {
+        "rotulo": "Desaparecido",
+        "valor": "O Lobo de Prata, que estava no cofre"
+      },
+      {
+        "rotulo": "Suspeitos",
+        "valor": "Os oito que estavam em casa"
+      }
+    ]
+  },
+  "rondas": [
+    {
+      "n": 1,
+      "prato": "Entrada"
+    },
+    {
+      "n": 2,
+      "prato": "Prato principal"
+    },
+    {
+      "n": 3,
+      "prato": "Sobremesa"
+    }
+  ],
+  "jogadores": [
+    {
+      "id": "rui",
+      "nome": "Rui Moreira",
+      "papel": "O anfitrião · ilusionista de salão",
+      "frase": "Faz desaparecer qualquer coisa."
+    },
+    {
+      "id": "ines",
+      "nome": "Inês",
+      "papel": "A anfitriã · guardiã da biblioteca",
+      "frase": "Já leu todos os livros desta casa. Duas vezes."
+    },
+    {
+      "id": "tiago",
+      "nome": "Tiago Moreira",
+      "papel": "O irmão mais novo · engenheiro em formação",
+      "frase": "Montou sozinho as câmaras da casa."
+    },
+    {
+      "id": "beatriz",
+      "nome": "Beatriz",
+      "papel": "A afilhada · futura realizadora",
+      "frase": "Está sempre a filmar."
+    },
+    {
+      "id": "hugo",
+      "nome": "Hugo",
+      "papel": "O padrinho · colecionador de lobos",
+      "frase": "Há anos que quer o Lobo de Prata."
+    },
+    {
+      "id": "marta",
+      "nome": "Marta",
+      "papel": "A convidada · consultora de arte",
+      "frase": "Ninguém sabe bem o que faz."
+    },
+    {
+      "id": "nuno",
+      "nome": "Nuno Matos",
+      "papel": "O fisioterapeuta da família",
+      "frase": "Nunca recusou um segundo prato."
+    },
+    {
+      "id": "filipe",
+      "nome": "Filipe Antunes",
+      "papel": "O empresário · acabado de chegar do Japão",
+      "frase": "Faz-se de calmo. Tem cinturão de taekwondo."
+    }
+  ],
+  "regras": [
+    "Lê a tua ficha em silêncio e não a mostres a ninguém.",
+    "Podes mentir sobre ti. Nunca podes mentir sobre o que viste.",
+    "No fim, cada um vota no telemóvel em quem acha que é o assassino e pode tentar adivinhar os segredos dos outros.",
+    "Acertar no assassino vale 3 pontos e cada segredo adivinhado vale 1. Ganha quem tiver mais."
+  ],
+  "horaCrime": "21h00",
+  "linhaTempo": {
+    "inicio": "20h30",
+    "fim": "21h15",
+    "momentos": [
+      {
+        "hora": "20h30",
+        "texto": "Chega o avaliador."
+      },
+      {
+        "hora": "20h50",
+        "texto": "O Rui deixa o avaliador sozinho no closet, com o cofre aberto."
+      },
+      {
+        "hora": "21h15",
+        "texto": "A Inês encontra o corpo no closet.",
+        "crime": true
+      }
+    ]
+  },
+  "chaveGuia": "MORDOMO"
+}
